@@ -19,31 +19,45 @@ submissions/your_team_name/
 ```
 
 ### Step 4 — predictions.csv format
+
+**Problem A:**
 ```csv
 id,prediction
-1,class_a
-2,class_b
-3,class_a
-...
+1,late
+2,on_time
+3,late
 ```
-- Must have exactly two columns: `id` and `prediction`
-- Must cover every row in the final test dataset
-- No missing values
+Values: `late` or `on_time`
+
+**Problem B:**
+```csv
+id,prediction
+1,price_sensitive
+2,lost_interest
+3,bad_experience
+```
+Values: `price_sensitive`, `bad_experience`, `found_alternative`, or `lost_interest`
+
+- Exactly two columns: `id` and `prediction`
+- Cover every row in the final test dataset
+- No missing values, no extra columns
+- Lowercase, exact spelling
 
 ### Step 5 — Submit via Pull Request
-- PR title: `[Submission] Team Name — Problem A/B`
-- PR into the `main` branch of this repo
-- **Deadline: T + 5:00 sharp.** PR timestamp is final.
+- PR title: `[Submission] Team Name — Problem A` or `[Submission] Team Name — Problem B`
+- PR into `main` branch
+- **Deadline: T+5:00 sharp.** PR timestamp is final.
 
-### Checklist before submitting
+### Checklist
 - [ ] `predictions.csv` has `id` and `prediction` columns
-- [ ] `predictions.csv` covers all test rows, no nulls
+- [ ] Predictions cover all test rows, no nulls
+- [ ] Class labels are spelled exactly right (lowercase)
 - [ ] `submission_sheet.pdf` is filled completely
 - [ ] All code is included and runnable
-- [ ] PR title follows the format above
+- [ ] PR title follows the format
 
 ### Late submissions?
-No. The PR timestamp is the cutoff. Plan ahead.
+No. The PR timestamp is the cutoff.
 
 ---
 *SPEC2MODEL Challenge — GDGOC Silicon University*
