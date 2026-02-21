@@ -115,9 +115,9 @@ How did you verify the external data was clean and trustworthy?
 
 | Member | What They Worked On |
 |--------|-------------------|
-| Member 1 | Feature engineering and preprocessing |
-| Member 2 | Model training and hyperparameter tuning |
-| Member 3 | Validation strategy and performance evaluation |
+| Member 1 | Preprocessing and EDA |
+| Member 2 | Feature engineering |
+| Member 3 | Model training and Pipeline |
 
 ---
 
