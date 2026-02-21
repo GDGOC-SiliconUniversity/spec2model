@@ -6,10 +6,10 @@ Fill this out during the event and include it as `submission_sheet.pdf` (or `.md
 
 ## Section 1 — Team Information
 
-- **Team Name:**Kojak
+- **Team Name:** Kojak
 - **Problem Chosen:** B
-- **Member 1:** Saheb Satya Prakash Sha, SIC, CSE
-- **Member 2:** Asish Sarangi, SIC, CSE
+- **Member 1:** Saheb Satya Prakash Sha, 23BCSF67, CSE
+- **Member 2:** Asish Sarangi, 23BCSD78, CSE
 - **Member 3:** Biswajeet Srichandan, 23BCSD65, CSE
 - **Contact (any one member):** 
 
@@ -145,6 +145,6 @@ I confirm that all external data sources used are listed in Section 2 and are pu
 
 ---
 
-## May submi this here in markdown only here!!
+## May submiT this here in markdown only here!!
 
 *SPEC2MODEL Challenge — GDGOC Silicon University — Zygon x Neosis Annual Fest*
